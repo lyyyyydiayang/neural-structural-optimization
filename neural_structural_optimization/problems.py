@@ -100,7 +100,7 @@ def cantilever_beam_full(
 
 
 def cantilever_beam_two_point(
-    width=60, height=60, density=0.5, support_position=0.25,
+    width=60, height=60, density=0.1, support_position=0.25,
     force_position=0.5):
   """Cantilever supported by two points."""
   # https://link.springer.com/content/pdf/10.1007%2Fs00158-010-0557-z.pdf
